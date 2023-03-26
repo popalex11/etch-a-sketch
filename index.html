@@ -5,15 +5,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Etch A Sketch</title>
+    <title>Etch-a-sketch</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
+    <header class="header" id="header">
+        Etch-a-sketch
+    </header>
+
+    <div class="content" id="content">
+        <div id="grid" class="grid">
+
+        </div>
+
+        <div class="butoane-selectie" id="butoane-selectie">
+            <div class="culoare">
+                <div class="sss1">
+                    <button class="color" id="color">COLOR</button>
+
+                    <div><input id="colorPicker" type="color" value="#333333" /></div>
+                </div>
+
+                <button class="rainbow" id="rainbow">RAINBOW</button>
+            </div>
+
+            <div class="sss2">
+                <button class="eraser" id="eraser">ERASER</button>
+
+                <button class="clear" id="clear">CLEAR</button>
+            </div>
+
+        </div>
+    </div>
 
 
-
-
+    <footer class="footer" id="footer"> 
+        <a href="https://github.com/popalex11">popalex11 </a>
+        © 2023
+    </footer>
 
     <script src="app.js"></script>
 </body>

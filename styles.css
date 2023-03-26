@@ -1,0 +1,72 @@
+
+
+.grid {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: white;
+    outline: 3px black solid;
+}
+
+.grid-element {
+    width: 40px;
+    height: 40px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+    margin: 0px;
+    justify-content: space-between;
+    background-color: wheat;
+}
+
+.header {
+    font-size: 60px;
+    padding-top: 20px;
+    padding-bottom: -20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.butoane-selectie {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    font-size: 32px;
+    height: 50px;
+    margin: 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+input {
+    height:50px;
+}
+
+.sss1 {
+    display: flex;
+    align-items: center;    
+}
+
+.sss2 {
+    display: flex;
+    flex-direction: column;
+}
+
